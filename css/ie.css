@@ -1,0 +1,7 @@
+#main {
+  clear: both; height: 100%;
+}
+
+#main #content .post-info ul {
+  height: 100%;
+}

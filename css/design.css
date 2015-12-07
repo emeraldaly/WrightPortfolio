@@ -1,0 +1,23 @@
+h1 {
+    font-family: 'Poiret One', cursive;
+}
+h2 {
+    font-family: 'Bree Serif', serif;
+}
+h3 {
+    font-family: 'Lato', sans-serif;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+ 
+.navbar {
+  background-color: #99ebff;
+  background-image: url(../images/random_grey_variations_@2X.png); 
+}
+
+body {
+  background-color: #fff2e5;
+  background-image: url(../images/bright_squares_@2X.png);
+}
