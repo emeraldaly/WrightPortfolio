@@ -1,11 +1,12 @@
 $(document).ready(function() {
-  $(document).on("click", "a", function(e) {
+  $(".list-group").on("click", "a", function(e) {
     var thisHref = $(this).attr("href");
     e.preventDefault();
     alert("you clicked a link"),
     $.ajax({
       type: "GET",
-      url: thisHref,
+      url: $(this).attr("href"),
+      // thisHref,
       success: function(commits){
         $("tbody").empty();
         for(var i=0; i <commits.length; i++) {
