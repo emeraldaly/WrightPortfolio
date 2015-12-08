@@ -30,28 +30,29 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="navbar">
-  <div class="container">
-        <a href="home.html" class="btn btn-info">Home</a>
-        <a href="AboutMe.html" class="btn btn-info">About Me</a>
-        <a href="Projects.html" class="btn btn-info">Projects</a> 
-        <a href="blog.html" class="btn btn-info">Blog</a>
-  </div>
-  </div>
-</nav>
+        <div class="navbar">
+            <div class="container">
+                <a href="home.html" class="btn btn-info">Home</a>
+                <a href="AboutMe.html" class="btn btn-info">About Me</a>
+                <a href="Projects.html" class="btn btn-info">Projects</a> 
+                <a href="blog.html" class="btn btn-info">Blog</a>
+            </div>
+        </div>
+    </nav>
 
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
             <h1>Alyson Wright</h1>
-            <h3>Greater NY Area</h3>
-            <br>
-            <img class="main" src="images/Profile2.jpg">
-            <br>
-            <br>
-            <p>Maecenas sollicitudin laoreet tortor in facilisis. Phasellus elementum quam id tempor luctus. Quisque vel urna vitae odio iaculis laoreet et sit amet tortor. Vestibulum sapien mi, elementum at hendrerit et, maximus et sem. Proin ac tortor vitae tellus elementum semper. Duis et dolor quis tortor aliquet porta. Sed pretium mi eget sapien blandit, sed pulvinar nibh tempor. Vestibulum nec justo eget ante pretium porta. Nunc orci elit, feugiat a neque quis, ullamcorper gravida enim. Sed euismod, ipsum a maximus luctus, eros sem posuere urna, ac maximus neque nibh in velit..</p>
-
-</div>
+                <h3>Greater NY Area</h3>
+                <br>
+                    <img class="main" src="images/Profile2.jpg">
+                <br>
+                <br>
+                    <div class="center-block">
+                        <p class="text-center">Maecenas sollicitudin laoreet tortor in facilisis. Phasellus elementum quam id tempor luctus. Quisque vel urna vitae odio iaculis laoreet et sit amet tortor. Vestibulum sapien mi, elementum at hendrerit et, maximus et sem. Proin ac tortor vitae tellus elementum semper. Duis et dolor quis tortor aliquet porta. Sed pretium mi eget sapien blandit, sed pulvinar nibh tempor. Vestibulum nec justo eget ante pretium porta. Nunc orci elit, feugiat a neque quis, ullamcorper gravida enim. Sed euismod, ipsum a maximus luctus, eros sem posuere urna, ac maximus neque nibh in velit..
+                        </p>
+                    </div>
         </div>
     </header>
 
@@ -80,36 +81,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
 </body>
-
 </html>

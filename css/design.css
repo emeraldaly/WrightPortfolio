@@ -13,6 +13,11 @@ p {
 h1 {
     margin-top: 2cm;
 }
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
  
 .navbar {
